@@ -1,0 +1,23 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;    
+
+.icon {
+    stroke: red; /* Set the border color to red */
+    fill: transparent; /* Set the fill color to transparent */
+    transition: fill 0.3s; /* Add a smooth transition for the fill property */
+}
+
+/* Define the hover style for the SVG */
+.icon:hover {
+    fill: red; /* Change the fill color to red on hover */
+}
